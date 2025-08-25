@@ -1,0 +1,42 @@
+.edit-submission-page {
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  }
+  
+  .edit-field {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .edit-field label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #0d6efd;
+  }
+  
+  .edit-field input {
+    padding: 8px 12px;
+    border: 1px solid #0d6efd;
+    border-radius: 6px;
+  }
+  
+  .update-btn {
+    padding: 10px 16px;
+    background-color: #0d6efd;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .update-btn:hover {
+    background-color: #0056b3;
+  }
+  

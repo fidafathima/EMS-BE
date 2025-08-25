@@ -1,0 +1,58 @@
+.sidenav {
+    height: 100vh;
+    width: 250px; /* widened */
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #0d6efd; /* blue theme */
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+  }
+  
+  
+  
+  /* Profile section (linear) */
+  .profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 30px;
+    padding: 0 15px;
+  }
+  
+  .profile-icon {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 2px solid white;
+  }
+  
+  .profile-name {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  /* Navigation links */
+  .sidenav a {
+    padding: 12px 15px;
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  
+  .sidenav a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 6px;
+  }
+  
+  
+  

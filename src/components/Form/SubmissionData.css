@@ -1,0 +1,67 @@
+.submission-page {
+    margin-left: 290px; 
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f8faff;
+    min-height: 100vh;
+  }
+  
+  .submission-header {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+  }
+  
+  .submission-actions {
+    margin-top: 10px;
+  }
+  
+  .edit-btn, .delete-btn {
+    padding: 8px 12px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.2s;
+  }
+  
+  .edit-btn {
+    background-color: #0d6efd;
+    color: white;
+  }
+  
+  .edit-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .delete-btn {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .delete-btn:hover {
+    background-color: #a71d2a;
+  }
+  
+  .submission-data {
+    margin-top: 20px;
+  }
+  
+  .data-box {
+    display: flex;
+    justify-content: space-between;
+    background-color: #e3f2ff;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+  }
+  
+  .data-label {
+    font-weight: bold;
+  }
+  
+  .data-value {
+    color: #201f1f;
+  }
+  

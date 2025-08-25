@@ -1,0 +1,61 @@
+.base {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background: #f0f8ff; /* light blue theme */
+  }
+  
+  .base h2 {
+    color: #0077b6;
+    margin-bottom: 20px;
+  }
+  
+  .base input, .base textarea, .base select {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 10px 0;
+    border-radius: 5px;
+    border: 1px solid #0077b6;
+  }
+  
+  .field-box {
+    border: 1px solid #0077b6;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background: #e0f7fa;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .button-row {
+    display: flex;
+    justify-content: space-between; /* Add field left, create form right */
+    margin-top: 20px;
+  }
+  
+  .button-row button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #0077b6;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button-row button:hover {
+    background-color: #023e8a;
+  }
+  
+  .field-box.dragging {
+    background-color: #a3c4ff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  }
+  
+  
